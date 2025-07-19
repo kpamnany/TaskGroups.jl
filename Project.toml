@@ -1,0 +1,15 @@
+name = "TaskGroups"
+uuid = "c56bd3aa-e7fb-4ec5-a128-a8deacb37eb5"
+version = "0.1.0"
+
+[deps]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+ScopedValues = "7e506255-f358-4e82-b7e4-beb19740aa63"
+
+[extras]
+Suppressor = "fd094767-a336-5f1f-9728-57cf17d0bbfb"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Suppressor"]
